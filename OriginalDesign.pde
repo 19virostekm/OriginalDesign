@@ -1,5 +1,7 @@
+
 int backgroundColorR = (int) (Math.random()*101);
 int backgroundColorG = (int) (Math.random()*101);
+/// Miki's Project
 int backgroundColorB = (int) (Math.random()*101);
 int x = 0;
 
