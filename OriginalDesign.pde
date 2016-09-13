@@ -17,7 +17,7 @@ void draw()
   triangle(340,80,250,210,385,200);
   ellipse(110,250,120,140);
   ellipse(385,250,120,140);
-  arc();
+  myArc();
   mouthShape();
   teeth();
   fill(x);
@@ -33,7 +33,7 @@ void myBackground()
   backgroundColorB = backgroundColorB + 1;
   background(backgroundColorR, backgroundColorG, backgroundColorB);
 }
-void arc()
+void myArc()
 {
   noFill();
   stroke(8);
