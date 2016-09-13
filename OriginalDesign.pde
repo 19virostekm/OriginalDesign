@@ -1,7 +1,5 @@
-
 int backgroundColorR = (int) (Math.random()*101);
 int backgroundColorG = (int) (Math.random()*101);
-/// Miki's Project
 int backgroundColorB = (int) (Math.random()*101);
 int x = 0;
 
@@ -11,7 +9,7 @@ void setup()
 }
 void draw()
 {
-  background();
+  myBackground();
   fill(0,0,0);
   noStroke();
   ellipse(250,250,300,250);
@@ -28,7 +26,7 @@ void draw()
   rect(25,425,50,50);
   rect(425,25,50,50);
 }
-void background()
+void myBackground()
 {
   backgroundColorR = backgroundColorR + 1;
   backgroundColorG = backgroundColorG + 1;
